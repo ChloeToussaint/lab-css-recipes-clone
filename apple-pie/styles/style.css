@@ -1,0 +1,18 @@
+header {
+    background: url("../images/apple-pie.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+body {
+    background-color: pink
+}

@@ -1,18 +1,50 @@
 header {
-    background: url("../images/apple-pie.jpg") center no-repeat;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
+  background: url("../images/apple-pie.jpg") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+section {
+  font: 1.6em sans-serif;
+  font-weight: lighter;
+  margin: 80px 150px;
+  color: rgb(71, 71, 71);
+  line-height: 35px;
 }
 
 h1 {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+  color: white;
+  font-size: 100px;
+  font-weight: lighter;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-body {
-    background-color: pink
+.firstParag {
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+section ol {
+  list-style-type: none;
+}
+
+div ul {
+  list-style-type: "-";
+  text-align: left;
+}
+div img {
+  height: 70px;
+}
+.img2 {
+  position: static;
+  text-align: center;
+  margin: 30px;
+}
+h3 {
+  font-weight: normal;
 }
